@@ -29,3 +29,8 @@ Application Feature:
 - APIs
 - CI/CD Pipelines 
 - Containerazation 
+
+# Run the Server
+
+$npm start 
+
