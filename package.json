@@ -13,10 +13,16 @@
     "mongoose": "^5.8.7",
     "nodemon": "^2.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-react": "^7.18.0",
+    "prettier": "^1.19.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "format": "prettier --write \"**/*.{js,json}\" \"!node_modules/**\" \"!public/**\""
   },
   "repository": {
     "type": "git",
